@@ -7,7 +7,7 @@ if (JavaVersion.current().isJava9Compatible()) {
         compileJava.options.release.set(24)
 }
 
-mainClassName = 'dev.mybad2.SpaceshipSyndicate.server.ServerLauncher'
+mainClassName = 'server.com.syndicate.starship.ServerLauncher'
 application.setMainClass(mainClassName)
 eclipse.project.name = appName + '-server'
 
